@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="title desc">
+  <title id="title">Example acoustic condition-monitoring pipeline</title>
+  <desc id="desc">A machine emits a waveform that is measured by a sensor node, converted into features, and classified as normal or alert.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5fbfd"/>
+      <stop offset="1" stop-color="#e8f1f5"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#287c91"/>
+    </marker>
+  </defs>
+  <rect width="840" height="300" rx="22" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#183442">
+    <text x="42" y="45" font-size="22" font-weight="700" fill="#004772">ACOUSTIC CONDITION MONITORING</text>
+    <text x="42" y="70" font-size="14" fill="#52717e">Original synthetic example · replace with your contribution</text>
+
+    <g transform="translate(48 102)">
+      <rect width="145" height="132" rx="14" fill="#ffffff"/>
+      <rect x="30" y="36" width="85" height="65" rx="9" fill="#dbeaf0" stroke="#287c91" stroke-width="3"/>
+      <circle cx="56" cy="68" r="16" fill="#ffffff" stroke="#004772" stroke-width="4"/>
+      <circle cx="92" cy="68" r="16" fill="#ffffff" stroke="#004772" stroke-width="4"/>
+      <path d="M38 30 v-13 h70 v13" fill="none" stroke="#f28e5b" stroke-width="5" stroke-linecap="round"/>
+      <text x="72.5" y="122" text-anchor="middle" font-size="15" font-weight="700">MACHINE</text>
+    </g>
+
+    <path d="M210 168 C230 168, 226 137, 246 137 S262 201, 280 201 S296 119, 314 119 S330 185, 348 185" fill="none" stroke="#f28e5b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M356 168 H400" stroke="#287c91" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g transform="translate(414 102)">
+      <rect width="145" height="132" rx="14" fill="#ffffff"/>
+      <circle cx="72" cy="55" r="26" fill="#dff3ee" stroke="#278d78" stroke-width="4"/>
+      <circle cx="72" cy="55" r="8" fill="#278d78"/>
+      <path d="M72 19 v-12 M45 28 l-9-9 M99 28 l9-9" stroke="#278d78" stroke-width="4" stroke-linecap="round"/>
+      <rect x="44" y="90" width="56" height="12" rx="6" fill="#287c91"/>
+      <text x="72.5" y="122" text-anchor="middle" font-size="15" font-weight="700">SENSOR NODE</text>
+    </g>
+
+    <path d="M574 168 H618" stroke="#287c91" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g transform="translate(632 102)">
+      <rect width="160" height="132" rx="14" fill="#ffffff"/>
+      <rect x="26" y="24" width="108" height="55" rx="9" fill="#eef4f6"/>
+      <path d="M37 66 L55 53 L72 60 L91 35 L108 47 L124 29" fill="none" stroke="#287c91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="119" cy="34" r="12" fill="#f28e5b"/>
+      <text x="80" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#b94f28">ALERT SCORE</text>
+      <text x="80" y="122" text-anchor="middle" font-size="13">edge decision</text>
+    </g>
+  </g>
+</svg>

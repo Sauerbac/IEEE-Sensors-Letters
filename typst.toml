@@ -1,0 +1,12 @@
+[package]
+name = "ieee-sensors-letters"
+version = "0.1.0"
+entrypoint = "lib.typ"
+compiler = "0.15.0"
+license = "MIT"
+description = "An independent Typst authoring template for IEEE Sensors Letters"
+repository = "https://github.com/Sauerbac/IEEE-Sensors-Letters"
+
+[template]
+path = "template"
+entrypoint = "main.typ"

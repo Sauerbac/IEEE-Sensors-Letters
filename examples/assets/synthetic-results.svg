@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title desc">
+  <title id="title">Three-panel synthetic acoustic event detection results</title>
+  <desc id="desc">Panel a shows a waveform and damped transient model, panel b shows event score and threshold, and panel c shows illustrative receiver operating curves.</desc>
+  <rect width="1500" height="520" rx="24" fill="#f8fbfc"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#183442">
+    <text x="42" y="42" font-size="22" font-weight="700" fill="#004772">DETERMINISTIC SYNTHETIC RESULTS</text>
+    <text x="42" y="67" font-size="13" fill="#5c7884">Illustrative values for template demonstration · not measurements</text>
+
+    <g transform="translate(42 102)">
+      <rect width="445" height="350" rx="16" fill="#fff" stroke="#d3e2e7" stroke-width="2"/>
+      <text x="20" y="31" font-size="17" font-weight="700">(a) Transient fit</text>
+      <path d="M58 290 V62 M58 290 H416" stroke="#6f8790" stroke-width="2"/>
+      <path d="M58 176 C75 160 86 193 103 174 S132 155 146 176 S173 197 188 176 S216 155 231 174 S260 194 275 176 S304 157 319 175 S348 194 363 176 S392 160 408 174" fill="none" stroke="#a9bac1" stroke-width="3"/>
+      <path d="M58 176 C82 168 98 185 116 176 S152 163 170 177 S203 188 221 176 S250 165 266 176 L276 176 C284 82 301 268 316 120 S348 226 364 146 S393 201 410 160" fill="none" stroke="#f28e5b" stroke-width="4" stroke-linecap="round"/>
+      <path d="M276 176 C286 92 302 247 317 127 S349 213 365 149 S394 195 410 162" fill="none" stroke="#287c91" stroke-width="4" stroke-dasharray="10 7"/>
+      <line x1="276" y1="62" x2="276" y2="290" stroke="#278d78" stroke-width="2" stroke-dasharray="5 6"/>
+      <text x="284" y="82" font-size="12" fill="#278d78">trigger</text>
+      <text x="226" y="309" font-size="13" text-anchor="middle">time</text>
+      <text x="18" y="183" font-size="13" text-anchor="middle" transform="rotate(-90 18 183)">amplitude</text>
+      <line x1="79" y1="331" x2="108" y2="331" stroke="#f28e5b" stroke-width="4"/><text x="116" y="335" font-size="12">signal</text>
+      <line x1="184" y1="331" x2="213" y2="331" stroke="#287c91" stroke-width="4" stroke-dasharray="9 6"/><text x="221" y="335" font-size="12">model</text>
+    </g>
+
+    <g transform="translate(527 102)">
+      <rect width="445" height="350" rx="16" fill="#fff" stroke="#d3e2e7" stroke-width="2"/>
+      <text x="20" y="31" font-size="17" font-weight="700">(b) Event score</text>
+      <path d="M58 290 V62 M58 290 H416" stroke="#6f8790" stroke-width="2"/>
+      <line x1="58" y1="148" x2="416" y2="148" stroke="#f28e5b" stroke-width="3" stroke-dasharray="9 6"/>
+      <text x="335" y="138" font-size="12" fill="#b94f28">threshold τ</text>
+      <path d="M58 268 L82 260 L105 266 L128 252 L151 259 L174 244 L197 254 L220 235 L243 246 L266 224 L289 235 L312 95 L335 197 L358 230 L381 238 L416 249" fill="none" stroke="#287c91" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="312" cy="95" r="8" fill="#f28e5b" stroke="#fff" stroke-width="3"/>
+      <rect x="287" y="73" width="72" height="27" rx="13" fill="#f28e5b"/>
+      <text x="323" y="91" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALERT</text>
+      <text x="226" y="329" font-size="13" text-anchor="middle">candidate event</text>
+      <text x="18" y="183" font-size="13" text-anchor="middle" transform="rotate(-90 18 183)">score q</text>
+    </g>
+
+    <g transform="translate(1012 102)">
+      <rect width="445" height="350" rx="16" fill="#fff" stroke="#d3e2e7" stroke-width="2"/>
+      <text x="20" y="31" font-size="17" font-weight="700">(c) Threshold sweep</text>
+      <path d="M58 290 V62 M58 290 H416" stroke="#6f8790" stroke-width="2"/>
+      <g stroke="#e0eaed" stroke-width="1">
+        <line x1="58" y1="233" x2="416" y2="233"/><line x1="58" y1="176" x2="416" y2="176"/><line x1="58" y1="119" x2="416" y2="119"/>
+        <line x1="147" y1="62" x2="147" y2="290"/><line x1="237" y1="62" x2="237" y2="290"/><line x1="326" y1="62" x2="326" y2="290"/>
+      </g>
+      <line x1="58" y1="290" x2="416" y2="62" stroke="#a9bac1" stroke-width="2" stroke-dasharray="6 6"/>
+      <path d="M58 290 C92 234 119 193 156 159 S233 105 287 84 S365 67 416 62" fill="none" stroke="#a9bac1" stroke-width="5"/>
+      <path d="M58 290 C79 183 116 122 168 93 S274 65 416 62" fill="none" stroke="#278d78" stroke-width="5"/>
+      <circle cx="111" cy="130" r="8" fill="#f28e5b" stroke="#fff" stroke-width="3"/>
+      <text x="224" y="309" font-size="13" text-anchor="middle">false-positive rate</text>
+      <text x="18" y="183" font-size="13" text-anchor="middle" transform="rotate(-90 18 183)">true-positive rate</text>
+      <line x1="78" y1="331" x2="108" y2="331" stroke="#278d78" stroke-width="5"/><text x="116" y="335" font-size="12">model score</text>
+      <line x1="230" y1="331" x2="260" y2="331" stroke="#a9bac1" stroke-width="5"/><text x="268" y="335" font-size="12">energy only</text>
+    </g>
+  </g>
+</svg>
