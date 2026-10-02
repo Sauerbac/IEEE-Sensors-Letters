@@ -1,4 +1,20 @@
-# IEEE Sensors Letters
+<h1 align="center">IEEE Sensors Letters for Typst</h1>
+
+<p align="center">
+  A polished authoring template for sensor research letters, with familiar IEEE-style typography and layout.
+</p>
+
+<p align="center">
+  <img alt="Typst 0.15" src="https://img.shields.io/badge/Typst-0.15-239DAD?logo=typst&logoColor=white">
+  <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-v0.1.0-005A84">
+  <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-2F855A">
+</p>
+
+<p align="center">
+  <img src="assets/template-preview.png" width="900" alt="Rendered IEEE Sensors Letters template showing the title, author block, abstract, graphical abstract, and two-column body">
+</p>
+
+<p align="center"><sub>Actual first-page render from the included Typst showcase.</sub></p>
 
 An independent Typst authoring template that follows the supplied IEEE Sensors
 Letters author layout. This is an experimental `v0.1.0` release: it is not an
